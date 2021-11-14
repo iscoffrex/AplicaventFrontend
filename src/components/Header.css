@@ -1,0 +1,68 @@
+.container-header {
+    padding: 0px 15px;
+    border-bottom: 5px solid black;
+    background-color: #126E82;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-a-imagen-brand {
+    width: 130px;
+}
+.container-header-userInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.userPicture {
+    color: #fff;
+    margin: 0px 10px;
+    border-radius: 100%;
+    height: 80px;
+}
+.userDatos{
+    color: #fff;
+    margin: 0 10px;
+}
+.datos {
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#header_right_content{
+    display: flex;
+    align-items: center;
+}
+
+.btn-CerrarSesion {
+    font-size: 1.2rem;
+    border: none;
+    padding: 2px 5px;
+    background-color: #f4f4f4;
+    border-radius: 0.5rem;
+}
+.btn-CerrarSesion:hover{
+    cursor: pointer;
+    background-color: #ddd;
+}
+.nav-items{
+    border: 1px solid black;
+    background-color: #f5f5f5;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.nav-item{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+    padding: 10px;
+}
+.nav-item:hover{
+    background-color: rgb(160, 160, 160);
+}

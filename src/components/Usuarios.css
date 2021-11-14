@@ -1,0 +1,49 @@
+.container-usuarios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-table-usuarios {
+    padding: 20px;
+}
+.table-usuarios {
+    font-weight: bold;
+    padding: 20px;
+    border-collapse: collapse;
+    box-shadow: 5px 5px 0px #000, -5px -5px 0px #bbb;
+}
+.table-usuarios th,
+.table-usuarios td {
+    padding: 20px;
+    text-align: center;
+}
+.table-usuarios tr:nth-child(even) {
+    background-color: #D8E3E7;
+}
+.table-body-img-usuarios {
+    border-radius: 100%;
+    height: 75px;
+}
+
+.table-head-usuarios {
+    background-color: #126e82;
+    border-bottom: 5px solid black;
+    color: white;
+}
+
+.table-usuarios tr:hover td {
+    background-color: #132C33 ;
+    color: white;
+    
+}
+
+.table-usuarios button {
+    height: min-content;
+    padding: 10px;
+    border-radius: 5px;
+}
+.table-usuarios select {
+    height: min-content;
+    padding: 10px;
+    border-radius: 5px;
+}

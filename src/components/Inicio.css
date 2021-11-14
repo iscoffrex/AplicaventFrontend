@@ -1,0 +1,13 @@
+.container-inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-inicio h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+}
+.container-inicio span {
+    color: #de3e00;
+}

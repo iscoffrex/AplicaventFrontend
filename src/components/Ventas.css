@@ -1,0 +1,85 @@
+.container-ventas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-ventas-logica {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.container-ventas-logicaBuscar {
+    display: flex;
+}
+
+.container-ventas-logicaCrearVenta {
+    display: flex;
+}
+
+.container-ventas-logicaVentas input {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container-ventas-logicaVentas label {
+    margin: 5px;
+}
+
+.container-ventas-logicaVentas button {
+    height: min-content;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 26px 5px 5px 5px;
+}
+
+.table-ventas {
+    width: 1570px;
+    font-weight: bold;
+    padding: 20px;
+    border-collapse: collapse;
+    box-shadow: 5px 5px 0px #000, -5px -5px 0px #bbb;
+}
+
+.table-ventas th,
+.table-ventas td {
+    padding: 5px;
+    height: 80px;
+    text-align: center;
+}
+
+.table-ventas thead {
+    background-color: #126e82;
+    border-bottom: 5px solid black;
+    color: white;
+}
+
+.table-ventas tr:nth-child(even) {
+    background-color: #D8E3E7;
+}
+
+.table-ventas tr:hover  td{
+    background-color: #132C33 ;
+    color: white;
+}
+
+.table-ventas input {
+    padding: 5px;
+    border-radius: 5px;
+    width: 140px;
+}
+.table-ventas select {
+    height: min-content;
+    padding: 10px;
+    border-radius: 5px;
+}
+.table-ventas button {
+    height: min-content;
+    padding: 10px;
+    border-radius: 5px;
+}
+.input-venta-number {
+    background-color: #eee;
+}

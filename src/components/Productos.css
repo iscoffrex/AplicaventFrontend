@@ -1,0 +1,97 @@
+.container-productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-productos-logicaProductos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.container-productos-logicaProductos input {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container-productos-logicaProductos label {
+    margin: 5px;
+}
+
+.container-productos-crearProducto {
+    display: flex;
+}
+.container-productos-crearProducto  select {
+    height: min-content;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 26px 5px 5px 5px;
+}
+.container-productos-crearProducto  button {
+    height: min-content;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 26px 5px 5px 5px;
+}
+.container-productos-buscarProducto {
+    display: flex;
+}
+
+.container-productos-buscarProducto  button {
+    height: min-content;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 26px 5px 5px 5px;
+}
+
+.table-productos {
+    font-weight: bold;
+    padding: 20px;
+    border-collapse: collapse;
+    box-shadow: 5px 5px 0px #000, -5px -5px 0px #bbb;
+}
+
+.table-productos th,
+.table-productos td {
+    padding: 20px;
+    width: 180px;
+    text-align: center;
+}
+
+.table-head-productos {
+    background-color: #126e82;
+    border-bottom: 5px solid black;
+    color: white;
+}
+
+.table-productos tr:nth-child(even) {
+    background-color: #D8E3E7;
+}
+
+.table-productos tr:hover td {
+    background-color: #132C33 ;
+    color: white;
+}
+.table-productos button {
+    height: min-content;
+    padding: 10px;
+    border-radius: 5px;
+}
+.table-productos input {
+    padding: 5px;
+    border-radius: 5px;
+    width: 140px
+}
+.table-productos select {
+    height: min-content;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
